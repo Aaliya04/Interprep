@@ -1,5 +1,6 @@
 import { Navigate, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import AptitudeTests from "./AptitudeTests";
+import Analysis from "./Analysis";
 import Dashboard from "./Dashboard";
 import Home from "./Home";
 import Interview from "./Interview";
@@ -40,6 +41,7 @@ export default function App() {
           <Route path="/template-gallery" element={<TemplateGallery />} />
           <Route path="/interview" element={<Interview />} />
           <Route path="/interview/:type" element={<InterviewSession />} />
+          <Route path="/analysis" element={<Analysis />} />
         </Route>
 
       </Routes>
