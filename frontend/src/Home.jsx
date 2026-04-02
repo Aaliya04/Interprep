@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { FaBrain, FaChartLine, FaFileAlt, FaLinkedin } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import Chatbot from "./Chatbot";
 
 export default function Home() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -433,7 +434,7 @@ export default function Home() {
           </div>
 
         </div>
-
+<Chatbot />
        
 
 </div>
